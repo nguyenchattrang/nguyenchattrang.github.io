@@ -422,7 +422,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 130px;
   display: block;
   background: none;
   border-radius: 0;
@@ -591,9 +591,9 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #B1E1FF;
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1105,5 +1105,71 @@ section {
   }
 }
 
+.progress ul
+{
+  list-style: none;
+}
+.progress i
+{
+  font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+}
+.progress ul i
+{
+  font-size: 16px;
+    margin-right: 5px;
+    color: #FFB3B3;
+}
+.progress span
+{
+  font-weight: bolder;
+  font-size:15px;
+}
 
+.progress
+{
+  padding-top: 10px;
+  border-top: dotted 3px #ffb3b38a  ;
+
+}
+.project-title
+{
+  line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-top: 30px;
+    text-align: center;
+}
+.project-description ul
+{
+  list-style: none;
+}
+
+.project-description ul i
+{
+  font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+}
+.portfolio .nav a
+{
+  background-color: #ffb3b366;
+  color: #607EAA;
+}
+
+.port2 .portfolio-wrap 
+{
+  height: 300px;
+  overflow: hidden;
+}
+.port2 .portfolio-wrap img
+{
+width: 100%;
+
+
+}
 
