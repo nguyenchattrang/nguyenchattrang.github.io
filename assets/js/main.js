@@ -280,3 +280,16 @@ $('.multi-item-carousel .item').each(function(){
   	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
   }
 });
+
+
+function showmore()
+{
+ var a = document.getElementsByClassName('hidden');
+ var btn = document.getElementById('showmorebtn');
+ for (let i=0;i<a.length;i++)
+ {
+    a[i].style.display="block";
+    a[i].className+="wow fadeIn";
+ }
+ btn.style.display="none";
+}

@@ -1158,7 +1158,8 @@ section {
 .portfolio .nav a
 {
   background-color: #ffb3b366;
-  color: #607EAA;
+  color: #364d6d;
+  width: 30%;
 }
 
 .port2 .portfolio-wrap 
@@ -1176,3 +1177,8 @@ width: 100%;
 .icn_red {
   color: #dd47478a;
 }
+
+/* .hidden
+{
+  display: none;
+} */
