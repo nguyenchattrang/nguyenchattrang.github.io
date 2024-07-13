@@ -483,14 +483,69 @@ letterButton.addEventListener('click', function() {
   /**
    * Animation on scroll
    */
+  // window.addEventListener('load', () => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     easing: 'ease-in-out',
+  //     once: true,
+  //     mirror: false
+  //   })
+  // });
+
+  // window.addEventListener('load', function() {
+  //   const loadingScreen = document.getElementById('loadingScreen');
+  //   const mainContent = document.getElementById('mainContent');
+    
+  //   // Hide the loading screen
+  //   loadingScreen.style.display = 'none';
+    
+  //   // Show the main content
+  //   mainContent.style.display = 'block';
+    
+  //   // Allow scrolling
+  //   document.body.style.overflow = 'auto';
+  // });
+
+
+  
+  //   // Handle loading screen
+  //   const loadingScreen = document.getElementById('loadingScreen');
+  //   const mainContent = document.getElementById('mainContent');
+    
+  //   // Hide the loading screen
+  //   loadingScreen.style.display = 'none';
+    
+  //   // Show the main content
+  //   mainContent.style.display = 'block';
+    
+  //   // Allow scrolling
+  //   document.body.style.overflow = 'auto';
+  // });
+  
+
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+    });
+
+    const loadingScreen = document.getElementById('loadingScreen');
+    const mainContent = document.getElementById('mainContent');
+
+    
+    loadingScreen.style.display = 'none';
+
+
+    mainContent.style.display = 'block';
+
+
+    document.body.style.overflow = 'auto';
+});
+
+
+
 
   /**
    * Initiate Pure Counter 

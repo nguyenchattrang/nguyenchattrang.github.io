@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -9,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -18,7 +19,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" >
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   <link href="assets/img/favicon.ico" rel="apple-touch-icon">
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -35,377 +36,413 @@
   <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <i id="mobile-nav-toggle" class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <header id="header" class="sticky">
-    <div class="d-flex flex-column">
-      <div class="profile">
-        <img src="assets/img/mirror.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Đặng Thị Thùy Trang</a></h1>
-      </div>
-      <nav id="navbar" class="nav-menu navbar ">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bi-screwdriver"></i> <span>Skills</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Projects</span></a></li>
-          <li><a href="#myphotos" class="nav-link scrollto"><i class="bx bx-images"></i> <span>Photos</span></a></li>
-        </ul>
-      </nav>
+
+  <div id="loadingScreen">
+    <div>
+      <img src="assets/img/jumping.gif" alt="Loading..." loop>
     </div>
-  </header>
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center ">
-    <div class="hero-container wow bounceInUp center" data-aos="fade-in">
-      <h1 class="wow bounceInUp center">Đặng Thị Thùy Trang<span> <i class="fa fa-heart icn_red wow pulse"
-            data-wow-iteration="infinite" data-wow-duration="500ms"></i></span> </h1>
-      <p class="typing">I am a <span class="typed" data-typed-items="recent graduate, Fresher .Net Developer"></span>
-      </p>
-      <div class="button-container">
-        <p>Discover </p> <span>
-          <a href="#about" class="flash-button"><i class="fa-solid fa-arrow-down"></i></a></span>
-      </div>
-    </div>
-  </section>
-  <main id="main">
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
+    <div>Wait until we finish loading. Be prepare for the shine!!!</div>
+  </div>
+
+  <div id="mainContent">
+
+
+    <i id="mobile-nav-toggle" class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <header id="header" class="sticky">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img src="assets/img/mirror.jpg" alt="" class="img-fluid rounded-circle">
+          <h1 class="text-light"><a href="index.html">Đặng Thị Thùy Trang</a></h1>
         </div>
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/anhthe1.jpg" class="img-fluid" alt="">
+        <nav id="navbar" class="nav-menu navbar ">
+          <ul>
+            <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+            <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+            <li><a href="#skills" class="nav-link scrollto"><i class="bx bi-screwdriver"></i> <span>Skills</span></a>
+            </li>
+            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+            </li>
+            <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+                <span>Projects</span></a></li>
+            <li><a href="#myphotos" class="nav-link scrollto"><i class="bx bx-images"></i> <span>Photos</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center ">
+      <div class="hero-container wow bounceInUp center" data-aos="fade-in">
+        <h1 class="wow bounceInUp center">Đặng Thị Thùy Trang<span> <i class="fa fa-heart icn_red wow pulse"
+              data-wow-iteration="infinite" data-wow-duration="500ms"></i></span> </h1>
+        <p class="typing">I am a <span class="typed" data-typed-items="recent graduate, Fresher .Net Developer"></span>
+        </p>
+        <div class="button-container">
+          <p>Discover </p> <span>
+            <a href="#about" class="flash-button"><i class="fa-solid fa-arrow-down"></i></a></span>
+        </div>
+      </div>
+    </section>
+    <main id="main">
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="zoom-in">
-            <h3>.Net Developer; Web Developer.</h3>
-            <p class="fst-italic">
-              Basic information
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Full Name:</strong> <span>Đặng Thị Thùy Trang</span>
-                  </li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Birthday:</strong> <span>December 15, 2001</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Email:</strong>
-                    <span><a href="mailto:trangdngthth@gmail.com">trangdngthth@gmail.com</a></span>
-                  </li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Hometown:</strong> <span>Quang Ninh, Viet Nam</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Degree:</strong> <span>Bachelor's Degree</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Major:</strong> <span>Software Engineering</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>University:</strong> <span>FPT University</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>GPA:</strong> <span>8.14/10</span></li>
-                </ul>
-              </div>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/anhthe1.jpg" class="img-fluid" alt="">
             </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="zoom-in">
+              <h3>.Net Developer; Web Developer.</h3>
+              <p class="fst-italic">
+                Basic information
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Full Name:</strong> <span>Đặng Thị Thùy Trang</span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Birthday:</strong> <span>December 15, 2001</span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Email:</strong>
+                      <span><a href="mailto:trangdngthth@gmail.com">trangdngthth@gmail.com</a></span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Hometown:</strong> <span>Quang Ninh, Viet Nam</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Degree:</strong> <span>Bachelor's Degree</span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Major:</strong> <span>Software Engineering</span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>University:</strong> <span>FPT University</span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>GPA:</strong> <span>8.14/10</span></li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                I am primarily focused on backend development using .NET Core. I have experience with Entity Framework,
+                LINQ, REST API, and Web MVC, and have worked with Razor Pages, Windows Forms, and WPF. I know about
+                relational databases like MS SQL Server. While I am not very skilled in frontend development and other
+                front-end frameworks, I am familiar with HTML, CSS, JavaScript, and Bootstrap, and can handle various
+                tasks. I am open to working with frontend development if needed. My Java experience is from school, but
+                I
+                am capable in that area. I perform well independently and in teams, and I am always eager to expand my
+                knowledge of new technologies. I am willing to learn new tech as needed for job requirements or
+                projects.
+                My English skills are strong in communication, reading, and writing. I aim to bring value and contribute
+                effectively to any project I am involved in.
+              </p>
+            </div>
+          </div>
+          <div class="letter-button">
+            <p>Read more
+            </p>
+          </div>
+          <div class="letter">
             <p>
-              I am primarily focused on backend development using .NET Core. I have experience with Entity Framework,
-              LINQ, REST API, and Web MVC, and have worked with Razor Pages, Windows Forms, and WPF. I know about
-              relational databases like MS SQL Server. While I am not very skilled in frontend development and other
-              front-end frameworks, I am familiar with HTML, CSS, JavaScript, and Bootstrap, and can handle various
-              tasks. I am open to working with frontend development if needed. My Java experience is from school, but I
-              am capable in that area. I perform well independently and in teams, and I am always eager to expand my
-              knowledge of new technologies. I am willing to learn new tech as needed for job requirements or projects.
-              My English skills are strong in communication, reading, and writing. I aim to bring value and contribute
-              effectively to any project I am involved in.
+              Hello! My name is Trang, I recently graduated in Information Technology from FPT University. I'm
+              passionate
+              about solving real life problems across platforms like web, mobile, desktop, and gaming. Since I was young
+              I
+              have been interested in technology, driven by a curiosity to help people with their tech problems. From
+              assisting my mom with app installations to helping friends and family with their computers, technology has
+              always been a significant part of my life.
+            </p>
+            <p>
+              At the age of 13, I developed an interest in Pascal when I experienced it for a short time, and the
+              passion
+              grew when I needed to study Pascal at the grade 11 in High School. I was good at it and I’m surprised
+              about
+              how much a computer can solve a problem in life. This passion for programming led me to start a career in
+              software engineering, despite my mom's wishes for me to do something else so I studied biology and had a
+              small award for biology by then. I chose this path not for anything else but for the love of technology
+              and
+              the desire to solve real-life problems through innovative solutions.
+            </p>
+            <p>
+              When I started learning in my academy years, I started with objective C, Java OOP, Data Structure and
+              Algorithm, and built some simple websites with Java Servlet MVC. After that, my expertise lies primarily
+              in
+              .NET development, where I have build my skills in C#, ASP.NET, Entity Framework, and other essential
+              technologies.
+            </p>
+            <p>
+              I have been working on various projects that have allowed me to develop an understanding of software
+              development. Each project has not only improved my technical skills but also taught me the importance of
+              other soft skills like teamwork, communication, and adaptability in a project life cycle.
+            </p>
+            <p>
+              I am particularly passionate about developing applications that can make a difference in people's lives
+              and
+              help them with their own problems. One of my future goals is to create apps that assist disabled and blind
+              people, inspired by my mom. I also would like to build a comics website where everyone can upload their
+              comics, and AI will handle the translation and edit the rest of it.
+            </p>
+            <p>
+              I’m always looking for opportunities to expand my knowledge and skills. I am hardworking and eager to
+              learn
+              more from a professional environment. I want to overcome new challenges and get to know more about new
+              technologies to enhance my expertise further. Whether it's collaborating with a team or working
+              independently, I aim to deliver high-quality results and contribute to the success of any project I am
+              part
+              of.
+            </p>
+            <p>
+              Outside of my skills, I enjoy staying up-to-date with the latest technological trends and advancements. I
+              believe in continuous learning and often participate in online videos to enhance my expertise. I am also
+              proficient in English and have a basic understanding of Chinese, which I believe will be beneficial in a
+              global working environment.
+            </p>
+            <p>
+              Even though I might not be the best one, I will try to enhance my knowledge and skills to fit the job
+              position. Thank you for visiting my portfolio.
             </p>
           </div>
         </div>
-        <div class="letter-button">
-          <p>Read more
-          </p>
-        </div>
-        <div class="letter">
-          <p>
-            Hello! My name is Trang, I recently graduated in Information Technology from FPT University. I'm passionate
-            about solving real life problems across platforms like web, mobile, desktop, and gaming. Since I was young I
-            have been interested in technology, driven by a curiosity to help people with their tech problems. From
-            assisting my mom with app installations to helping friends and family with their computers, technology has
-            always been a significant part of my life.
-          </p>
-          <p>
-            At the age of 13, I developed an interest in Pascal when I experienced it for a short time, and the passion
-            grew when I needed to study Pascal at the grade 11 in High School. I was good at it and I’m surprised about
-            how much a computer can solve a problem in life. This passion for programming led me to start a career in
-            software engineering, despite my mom's wishes for me to do something else so I studied biology and had a
-            small award for biology by then. I chose this path not for anything else but for the love of technology and
-            the desire to solve real-life problems through innovative solutions.
-          </p>
-          <p>
-            When I started learning in my academy years, I started with objective C, Java OOP, Data Structure and
-            Algorithm, and built some simple websites with Java Servlet MVC. After that, my expertise lies primarily in
-            .NET development, where I have build my skills in C#, ASP.NET, Entity Framework, and other essential
-            technologies.
-          </p>
-          <p>
-            I have been working on various projects that have allowed me to develop an understanding of software
-            development. Each project has not only improved my technical skills but also taught me the importance of
-            other soft skills like teamwork, communication, and adaptability in a project life cycle.
-          </p>
-          <p>
-            I am particularly passionate about developing applications that can make a difference in people's lives and
-            help them with their own problems. One of my future goals is to create apps that assist disabled and blind
-            people, inspired by my mom. I also would like to build a comics website where everyone can upload their
-            comics, and AI will handle the translation and edit the rest of it.
-          </p>
-          <p>
-            I’m always looking for opportunities to expand my knowledge and skills. I am hardworking and eager to learn
-            more from a professional environment. I want to overcome new challenges and get to know more about new
-            technologies to enhance my expertise further. Whether it's collaborating with a team or working
-            independently, I aim to deliver high-quality results and contribute to the success of any project I am part
-            of.
-          </p>
-          <p>
-            Outside of my skills, I enjoy staying up-to-date with the latest technological trends and advancements. I
-            believe in continuous learning and often participate in online videos to enhance my expertise. I am also
-            proficient in English and have a basic understanding of Chinese, which I believe will be beneficial in a
-            global working environment.
-          </p>
-          <p>
-            Even though I might not be the best one, I will try to enhance my knowledge and skills to fit the job
-            position. Thank you for visiting my portfolio.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p></p>
-        </div>
-        <div class="row skills-content">
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Front-end</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>HTML5</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>CSS3</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>JavaScript</strong></li>
-              </ul>
-            </div>
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Back-end</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Java</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>C# .NET</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>C</strong></li>
-              </ul>
-            </div>
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Framework and Database</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Bootstrap</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Entity framework</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Microsoft SQL Server</strong></li>
-              </ul>
-            </div>
+      </section>
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p></p>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Tools</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Netbeans IDE 8.2, Apache Tomcat Server</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Microsoft SQL Server</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Visual Studio Code, Visual Studio 2019</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Dev C</strong></li>
-              </ul>
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Front-end</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>HTML5</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>CSS3</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>JavaScript</strong></li>
+                </ul>
+              </div>
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Back-end</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Java</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>C# .NET</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>C</strong></li>
+                </ul>
+              </div>
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Framework and Database</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Bootstrap</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Entity framework</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Microsoft SQL Server</strong></li>
+                </ul>
+              </div>
             </div>
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Language</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Native Vietnamese</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Fluent English</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Beginner Chinese</strong></li>
-              </ul>
-            </div>
-            <div class="progress">
-              <i class="bi bi-balloon-heart"></i> <span>Other skills</span>
-              <ul>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Teamwork</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Presentation</strong></li>
-                <li><i class="bi bi-heart-arrow"></i> <strong>Communication</strong></li>
-              </ul>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Tools</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Netbeans IDE 8.2, Apache Tomcat Server</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Microsoft SQL Server</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Visual Studio Code, Visual Studio 2019</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Dev C</strong></li>
+                </ul>
+              </div>
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Language</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Native Vietnamese</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Fluent English</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Beginner Chinese</strong></li>
+                </ul>
+              </div>
+              <div class="progress">
+                <i class="bi bi-balloon-heart"></i> <span>Other skills</span>
+                <ul>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Teamwork</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Presentation</strong></li>
+                  <li><i class="bi bi-heart-arrow"></i> <strong>Communication</strong></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="resume" class="resume">
-      <div class="container">
-        <div class="section-title">
-          <h2>Resume</h2>
+      </section>
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Resume</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up">
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>FPT University</h4>
+                <h5>2019 - 2023</h5>
+                <p><em>Hòa Lạc, Hà Nội</em></p>
+                <p>Very good Bachelor's Degree in Information Technology</p>
+              </div>
+              <div class="resume-item">
+                <h4>Hải Đảo High School</h4>
+                <h5>2016 - 2019</h5>
+                <p>High School Diploma (GPA above 8)</p>
+              </div>
+              <div class="resume-item">
+                <h4>Đông Xá Middle School</h4>
+                <h5>2012 - 2016</h5>
+                <p>Middle School Diploma (GPA above 8)</p>
+              </div>
+              <h3 class="resume-title">Work Experience</h3>
+              <div class="resume-item">
+                <h4>iCOMM Media & Tech, Jsc</h4>
+                <h5>Sep 2022 - Dec 2022</h5>
+                <p><em>Hà Nội</em></p>
+                <p>
+                  Worked on a product team, completed training, and gained extensive knowledge in .NET development
+                  practices, including REST API creation, dependency injection, asynchronous programming, AutoMapper
+                  usage, Dapper for data access and some experience with Firebase through training projects.
+                <p>
+                  Participated in multiple projects, contributing to codebase improvements and feature enhancements.
+                </p>
+                <p>
+                  Developed and maintained RESTful APIs for the company's media platform and social engagement platform.
+                </p>
+                <p>
+                  Worked on smart city projects, developing API endpoints for device management and camera integration.
+                </p>
+                <p>
+                  Worked in the field of data collection and analysis for governmental purposes, including crawling news
+                  sources for relevant data.
+                </p>
+                <p>
+                  Implemented API endpoints to handle complex data processing and ensure appropriate response formats
+                  for
+                  frontend requirements.
+                </p>
+                <p>
+                  Implemented processes to extract and analyze user reviews from Google Play, providing valuable
+                  insights
+                  to the HR team through recurring cron jobs.
+                </p>
+                <p>
+                  Conducted data crawling to gather relevant information from external sources and processed and
+                  transformed data into various formats (e.g., XML, JSON, HTML to PDF) for different applications.
+                </p>
+                <p>
+                  Collaborated with the development team to identify and fix bugs in the backend system.
+                </p>
+                <p>
+                  Wrote and optimized stored procedures, modified return fields, and updated APIs to improve
+                  functionality
+                  as per requirements.
+                </p>
+                <p>
+                  Utilized LINQ for efficient data queries and gained an understanding of NoSQL databases.
+                </p>
+                <p>
+                  Regularly attended project meetings to discuss progress, requirements, providing input and feedback to
+                  ensure project success.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
+      </section>
+      <section id="portfolio" class="portfolio port2 section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+          </div>
           <div class="col-lg-12" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>FPT University</h4>
-              <h5>2019 - 2023</h5>
-              <p><em>Hòa Lạc, Hà Nội</em></p>
-              <p>Very good Bachelor's Degree in Information Technology</p>
-            </div>
-            <div class="resume-item">
-              <h4>Hải Đảo High School</h4>
-              <h5>2016 - 2019</h5>
-              <p>High School Diploma (GPA above 8)</p>
-            </div>
-            <div class="resume-item">
-              <h4>Đông Xá Middle School</h4>
-              <h5>2012 - 2016</h5>
-              <p>Middle School Diploma (GPA above 8)</p>
-            </div>
-            <h3 class="resume-title">Work Experience</h3>
-            <div class="resume-item">
-              <h4>iCOMM Media & Tech, Jsc</h4>
-              <h5>Sep 2022 - Dec 2022</h5>
-              <p><em>Hà Nội</em></p>
-              <p>
-                Worked on a product team, completed training, and gained extensive knowledge in .NET development
-                practices, including REST API creation, dependency injection, asynchronous programming, AutoMapper
-                usage, Dapper for data access and some experience with Firebase through training projects.
-              <p>
-                Participated in multiple projects, contributing to codebase improvements and feature enhancements.
-              </p>
-              <p>
-                Developed and maintained RESTful APIs for the company's media platform and social engagement platform.
-              </p>
-              <p>
-                Worked on smart city projects, developing API endpoints for device management and camera integration.
-              </p>
-              <p>
-                Worked in the field of data collection and analysis for governmental purposes, including crawling news
-                sources for relevant data.
-              </p>
-              <p>
-                Implemented API endpoints to handle complex data processing and ensure appropriate response formats for
-                frontend requirements.
-              </p>
-              <p>
-                Implemented processes to extract and analyze user reviews from Google Play, providing valuable insights
-                to the HR team through recurring cron jobs.
-              </p>
-              <p>
-                Conducted data crawling to gather relevant information from external sources and processed and
-                transformed data into various formats (e.g., XML, JSON, HTML to PDF) for different applications.
-              </p>
-              <p>
-                Collaborated with the development team to identify and fix bugs in the backend system.
-              </p>
-              <p>
-                Wrote and optimized stored procedures, modified return fields, and updated APIs to improve functionality
-                as per requirements.
-              </p>
-              <p>
-                Utilized LINQ for efficient data queries and gained an understanding of NoSQL databases.
-              </p>
-              <p>
-                Regularly attended project meetings to discuss progress, requirements, providing input and feedback to
-                ensure project success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="portfolio" class="portfolio port2 section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2>
-        </div>
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="resume-item">
-            <div class="gif-sticker">
-              <div class="scroll-effect" id="scrollEffect"></div>
-              <div class="main-container mt-5">
-                <div class="image-gallery">
-                  <div class="image-panel-container">
-                    <div class="image-panel">
-                      <input class="image-panel-control" type="radio" name="panel-control" id="panel1" checked>
-                      <label for="panel1">
-                        <img class="image-panel-img" src="assets/img/recruitxpress.JPG" alt="Project">
-                      </label>
-                      <div class="image-panel-id">1</div>
-                      <div class="image-panel-content">
-                        <div class="gap"></div>
-                        <div class="description">
-                          <div class="range">
-                            <div class="value">RecruitXpress: A comprehensive HR platform.</div>
+              <div class="gif-sticker">
+                <div class="scroll-effect" id="scrollEffect"></div>
+                <div class="main-container mt-5">
+                  <div class="image-gallery">
+                    <div class="image-panel-container">
+                      <div class="image-panel">
+                        <input class="image-panel-control" type="radio" name="panel-control" id="panel1" checked>
+                        <label for="panel1">
+                          <img class="image-panel-img" src="assets/img/recruitxpress.JPG" alt="Project">
+                        </label>
+                        <div class="image-panel-id">1</div>
+                        <div class="image-panel-content">
+                          <div class="gap"></div>
+                          <div class="description">
+                            <div class="range">
+                              <div class="value">RecruitXpress: A comprehensive HR platform.</div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="image-panel-container">
-                    <div class="image-panel">
-                      <input class="image-panel-control" type="radio" name="panel-control" id="panel2">
-                      <label for="panel2">
-                        <img class="image-panel-img" src="assets/img/tankunity.JPG" alt="Project">
-                      </label>
-                      <div class="image-panel-id">2</div>
-                      <div class="image-panel-content">
-                        <div class="gap"></div>
-                        <div class="description">
-                          <div class="range">
-                            <div class="value">Tank Unity: Designed and developed a modified version of Tank 1990.</div>
+                    <div class="image-panel-container">
+                      <div class="image-panel">
+                        <input class="image-panel-control" type="radio" name="panel-control" id="panel2">
+                        <label for="panel2">
+                          <img class="image-panel-img" src="assets/img/tankunity.JPG" alt="Project">
+                        </label>
+                        <div class="image-panel-id">2</div>
+                        <div class="image-panel-content">
+                          <div class="gap"></div>
+                          <div class="description">
+                            <div class="range">
+                              <div class="value">Tank Unity: Designed and developed a modified version of Tank 1990.
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="image-panel-container">
-                    <div class="image-panel">
-                      <input class="image-panel-control" type="radio" name="panel-control" id="panel3">
-                      <label for="panel3">
-                        <img class="image-panel-img" src="assets/img/englishtest.JPG" alt="Project">
-                      </label>
-                      <div class="image-panel-id">3</div>
-                      <div class="image-panel-content">
-                        <div class="gap"></div>
-                        <div class="description">
-                          <div class="range">
-                            <div class="value">English Test System: Take tests and receive instant results of your English level.</div>
+                    <div class="image-panel-container">
+                      <div class="image-panel">
+                        <input class="image-panel-control" type="radio" name="panel-control" id="panel3">
+                        <label for="panel3">
+                          <img class="image-panel-img" src="assets/img/englishtest.JPG" alt="Project">
+                        </label>
+                        <div class="image-panel-id">3</div>
+                        <div class="image-panel-content">
+                          <div class="gap"></div>
+                          <div class="description">
+                            <div class="range">
+                              <div class="value">English Test System: Take tests and receive instant results of your
+                                English level.</div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="image-panel-container">
-                    <div class="image-panel">
-                      <input class="image-panel-control" type="radio" name="panel-control" id="panel4">
-                      <label for="panel4">
-                        <img class="image-panel-img" src="assets/img/screen-mycourse.JPG" alt="Project">
-                      </label>
-                      <div class="image-panel-id">4</div>
-                      <div class="image-panel-content">
-                        <div class="gap"></div>
-                        <div class="description">
-                          <div class="range">
-                            <div class="value">Online Learning System: System for online learning: register to purchase courses, manage courses, and accounts.</div>
+                    <div class="image-panel-container">
+                      <div class="image-panel">
+                        <input class="image-panel-control" type="radio" name="panel-control" id="panel4">
+                        <label for="panel4">
+                          <img class="image-panel-img" src="assets/img/screen-mycourse.JPG" alt="Project">
+                        </label>
+                        <div class="image-panel-id">4</div>
+                        <div class="image-panel-content">
+                          <div class="gap"></div>
+                          <div class="description">
+                            <div class="range">
+                              <div class="value">Online Learning System: System for online learning: register to
+                                purchase courses, manage courses, and accounts.</div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="image-panel-container">
-                    <div class="image-panel">
-                      <input class="image-panel-control" type="radio" name="panel-control" id="panel5">
-                      <label for="panel5">
-                        <img class="image-panel-img" src="assets/img/salesmanagement.png" alt="Project">
-                      </label>
-                      <div class="image-panel-id">5</div>
-                      <div class="image-panel-content">
-                        <div class="gap"></div>
-                        <div class="description">
-                          <div class="range">
-                            <div class="value">Sales Management System WPF: Manage small sales system tracks best-selling products.</div>
+                    <div class="image-panel-container">
+                      <div class="image-panel">
+                        <input class="image-panel-control" type="radio" name="panel-control" id="panel5">
+                        <label for="panel5">
+                          <img class="image-panel-img" src="assets/img/salesmanagement.png" alt="Project">
+                        </label>
+                        <div class="image-panel-id">5</div>
+                        <div class="image-panel-content">
+                          <div class="gap"></div>
+                          <div class="description">
+                            <div class="range">
+                              <div class="value">Sales Management System WPF: Manage small sales system tracks
+                                best-selling products.</div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -415,514 +452,528 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row mt-5" data-aos="fade-up">
-          <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active" id="nav-0-tab" data-bs-toggle="tab" href="#nav-pro0" role="tab"
-                aria-controls="nav-pro0" aria-selected="true">Recruit Xpress</a>
-              <a class="nav-item nav-link" id="nav-1-tab" data-bs-toggle="tab" href="#nav-pro1" role="tab"
-                aria-controls="nav-pro1" aria-selected="true">Online Learning System</a>
-              <a class="nav-item nav-link" id="nav-2-tab" data-bs-toggle="tab" href="#nav-pro2" role="tab"
-                aria-controls="nav-pro2" aria-selected="false">Other Projects</a>
-            </div>
-          </nav>
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-pro0" role="tabpanel" aria-labelledby="nav-0-tab">
-              <h3 class="text-center mt-5">
-                RecruitXpress
-              </h3>
-              <h5 class="project-datetime text-center">Sep 2023 - Dec 2023</h5>
-              <div class="project-description mx-2 my-3">
-                <ul>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Developed a comprehensive
-                      HR platform enabling job postings, applications, CV creation, test management, automatic email
-                      notifications, and appointment scheduling using .NET. The system allows HR professionals to manage
-                      job listings and applicants efficiently.
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Backend Developer, Documentation
-                      Contributor</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong>
-                    <span><a href="https://github.com/nguyenchattrang/SEP490-21">Github</a></span>
-                    <span>
-                      -
-                      <a
-                        href="https://docs.google.com/document/d/1IwhD_7xha4Ht58yt7g79AgqDFFdF6lnx">Documentation</a></span>
-                  </li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>.NET, C#, MSSQL,
-                      Entity Framework, Azure, React.js
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                    <span>I developed REST APIs for efficient communication between the frontend and backend.
-                    </span>
-                    <span>I implemented backend services for various functions such as authorization and authentication
-                      with JWT tokens, exam management including theory exam submission and grading, automated grading
-                      of multiple-choice exams, email updates for status changes and notifications, CV storage and
-                      preview, and application tracking and monitoring.
-                    </span>
-                    <span>I also contributed to system documentation including SRS, SDS, drawing diagrams, use cases,
-                      and writing user manuals and instructions.
-                    </span>
-                  </li>
-                </ul>
+          <div class="row mt-5" data-aos="fade-up">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-0-tab" data-bs-toggle="tab" href="#nav-pro0" role="tab"
+                  aria-controls="nav-pro0" aria-selected="true">Recruit Xpress</a>
+                <a class="nav-item nav-link" id="nav-1-tab" data-bs-toggle="tab" href="#nav-pro1" role="tab"
+                  aria-controls="nav-pro1" aria-selected="true">Online Learning System</a>
+                <a class="nav-item nav-link" id="nav-2-tab" data-bs-toggle="tab" href="#nav-pro2" role="tab"
+                  aria-controls="nav-pro2" aria-selected="false">Other Projects</a>
               </div>
-              <h6 class="mb-2 mt-4">
-                Some screenshots of the features
-              </h6>
-              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit20.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit20.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="This feature allows candidates and guests to view detailed information about specific job postings. When a user selects a job from the job list, they are redirected to a page that provides details about the job, such as title, description, requirements, and responsibilities."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-pro0" role="tabpanel" aria-labelledby="nav-0-tab">
+                <h3 class="text-center mt-5">
+                  RecruitXpress
+                </h3>
+                <h5 class="project-datetime text-center">Sep 2023 - Dec 2023</h5>
+                <div class="project-description mx-2 my-3">
+                  <ul>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Developed a
+                        comprehensive
+                        HR platform enabling job postings, applications, CV creation, test management, automatic email
+                        notifications, and appointment scheduling using .NET. The system allows HR professionals to
+                        manage
+                        job listings and applicants efficiently.
+                      </span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Backend Developer,
+                        Documentation
+                        Contributor</span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong>
+                      <span><a href="https://github.com/nguyenchattrang/SEP490-21">Github</a></span>
+                      <span>
+                        -
+                        <a
+                          href="https://docs.google.com/document/d/1IwhD_7xha4Ht58yt7g79AgqDFFdF6lnx">Documentation</a></span>
+                    </li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>.NET, C#, MSSQL,
+                        Entity Framework, Azure, React.js
+                      </span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
+                      <span>I developed REST APIs for efficient communication between the frontend and backend.
+                      </span>
+                      <span>I implemented backend services for various functions such as authorization and
+                        authentication
+                        with JWT tokens, exam management including theory exam submission and grading, automated grading
+                        of multiple-choice exams, email updates for status changes and notifications, CV storage and
+                        preview, and application tracking and monitoring.
+                      </span>
+                      <span>I also contributed to system documentation including SRS, SDS, drawing diagrams, use cases,
+                        and writing user manuals and instructions.
+                      </span>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit21.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit21.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="This feature allows candidates to update their personal profile information to ensure their details are current and accurate. The profile includes multiple tabs such as Individual, Relatives, Training Process, Experience, Foreign Language, and Computer Skills. Candidates can access and edit their information through the profile section, with the system validating and saving the updated data to the database."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit17.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit17.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="This feature enables HR to view information, evaluate, and prioritize candidates' CVs by marking them as shortlisted and sending them to the interviewer. This ensures that the most suitable candidates are highlighted for further review."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit6.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit6.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The Upload CV screen allows users to submit their CV by importing a file. Users are required to choose a CV file from their computer and then submit it."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit4.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The CV Template Editing screen allows users to choose a template for their Curriculum Vitae (CV) and customize it by adding personal information, work experience, education details, and skills."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit7.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit7.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="View detailed information about a candidate's qualifications and profile from the job application list."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit11.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit11.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The List Calendar screen allows users to manage a list of calendars."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit13.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit13.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="Show and allows users with appropriate permissions (such as HR) to modify existing events or schedules in the calendar. This can include changing details of interviews, assessments, or any other recruitment-related activities.
-                        "><i class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit10.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit10.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The Multiple Choice Exam screen allows users to take a multiple-choice examination. Users will be presented with a set of questions, each having multiple answer choices. "><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit18.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit18.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="This screen is where candidates enter the code provided to access a specialized exam. It ensures secure access to the exam and verifies the candidate's eligibility."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit19.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit19.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The Exam Submission screen allows users to submit a specific file as part of a specialized exam. Users are required to import the file and then submit it for evaluation."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item  ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit2.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="After completing the general test, candidates can view their results on this screen. It provides a summary of the test performance, including the grade and time taken.
-                        "><i class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item  ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit3.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="The Assigning Expert screen appears when a user chooses the examiner for a specialized exam.
-                        "><i class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item  ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/recruit16.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/recruit16.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="Email login credentials for the expert assigned by HR to grade the exam."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="nav-pro1" role="tabpanel" aria-labelledby="nav-1-tab">
-              <h3 class="text-center mt-5">
-                Online Learning System
-              </h3>
-              <h5 class="project-datetime text-center">May 2022 - Aug 2022</h5>
-              <div class="project-description mx-2 my-3">
-                <ul>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>This was a group project
-                      developed as part of the SWP391 subject. The system is designed for online learning, allowing
-                      users to register, purchase courses, manage their courses and accounts.
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Full Stack Developer</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                        href="https://gitlab.com/datnmhe153061/swp391_project.git">Gitlab</a></span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Java OOP, Servlet
-                      MVC, MSSQL Server, HTML, CSS, Bootstrap, AJAX
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                    <span>Developed full-stack functionality using Java for backend logic and HTML, CSS, Bootstrap, and
-                      AJAX for the frontend.
-                    </span>
-                    <span>Implemented various functions for user management, course handling, profiles, email
-                      notifications, and other essential features.
-                    </span>
-                    <span>Contributed to the overall system architecture and participated in regular team meetings to
-                      discuss progress and resolve any issues.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <h6 class="mb-2 mt-4">
-                Some screenshots of the features
-              </h6>
-              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-profile.JPG" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-profile.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                        title="This is a pop-up screen which allows the user to edit his/her profile information, including the registered ones & the avatar image"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-mycourse.JPG" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-mycourse.JPG" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox"
-                        title="Show the list of courses for the customer to view, search his/her access-allowed courses. Each registration includes below information: subject name, information, static link, endate."><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-registercourse.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-registercourse.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox"
-                        title="This is a pop-up screen which allow the user to register for access a subject. On this screen, the user needs to login and choose appropriate subject price package & input his/her information (full name, email, mobile, gender) to pay; User will receive a active course email after this finished. "><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-emailactive.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-emailactive.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox" title="Email receive to active the course"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-subjectdetails-overview.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-subjectdetails-overview.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox" title="Show and edit, change picture of the subject overview"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-details-price.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-details-price.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox" title="List of price, search and edit"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item  ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-details-addnew.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-details-addnew.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox" title="Add new dimension to subject dimension"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 portfolio-item  ">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/screen-details-dimension.png" class="img-fluid" alt="">
-                    <div class="portfolio-links">
-                      <a href="assets/img/screen-details-dimension.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox" title="Show list dimension, search, edit all the dimension"><i
-                          class="bi bi-zoom-in"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="nav-pro2" role="tabpanel" aria-labelledby="nav-2-tab">
-              <h3 class="text-center mt-5">
-                Tank Unity
-              </h3>
-              <h5 class="project-datetime text-center">May 2023 - Aug 2023</h5>
-              <div class="project-description mx-2 my-3">
-                <ul>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Designed and developed a
-                      customized version of Tank 1990 using Unity. This game showcases unique features such as custom
-                      map creation, diverse gameplay styles featuring different tanks, and additional mechanics to
-                      enhance gameplay dynamics.
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                        href="https://github.com/trangdtthe153077/TankUnityProject">Github</a></span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>C#, Unity
-                    </span></li>
-                  <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                    <span>As the developer, I was responsible for implementing core gameplay mechanics, including tank
-                      movement, map building functionalities, and custom gameplay styles.
-                    </span>
-                    <span>I also integrated unique features to enrich the overall gameplay dynamics, including a secret
-                      dungeon where players randomly select maps with unfamiliar play styles. Unlike traditional tank
-                      controls (where players use buttons to move up, down, left, or right), my special feature allows
-                      gameplay by typing on the keyboard really fast.
-                    </span>
-                    <span>Or another mode is to play surviving against unlimited tanks with boss spawns.
-                    </span>
-                    <span>Players can also choose from various tanks bought from the store, including a special one that
-                      looks like a rock.
-                    </span>
-                    <span>It’s not a complex or intricate design game but I particularly like this project because it is
-                      actually fun.
-                    </span>
-                    <span>People in my class love this mode.
-                    </span>
-                  </li>
-                </ul>
                 <h6 class="mb-2 mt-4">
                   Some screenshots of the features
                 </h6>
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank1.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit20.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit20.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="This feature allows candidates and guests to view detailed information about specific job postings. When a user selects a job from the job list, they are redirected to a page that provides details about the job, such as title, description, requirements, and responsibilities."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank2.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit21.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit21.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="This feature allows candidates to update their personal profile information to ensure their details are current and accurate. The profile includes multiple tabs such as Individual, Relatives, Training Process, Experience, Foreign Language, and Computer Skills. Candidates can access and edit their information through the profile section, with the system validating and saving the updated data to the database."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank3.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit17.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit17.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="This feature enables HR to view information, evaluate, and prioritize candidates' CVs by marking them as shortlisted and sending them to the interviewer. This ensures that the most suitable candidates are highlighted for further review."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank4.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit6.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit6.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The Upload CV screen allows users to submit their CV by importing a file. Users are required to choose a CV file from their computer and then submit it."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank5.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit4.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank5.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The CV Template Editing screen allows users to choose a template for their Curriculum Vitae (CV) and customize it by adding personal information, work experience, education details, and skills."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 portfolio-item ">
                     <div class="portfolio-wrap">
-                      <img src="assets/img/tank6.png" class="img-fluid" alt="">
+                      <img src="assets/img/recruit7.png" class="img-fluid" alt="">
                       <div class="portfolio-links">
-                        <a href="assets/img/tank6.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                          title=""><i class="bi bi-zoom-in"></i></a>
+                        <a href="assets/img/recruit7.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="View detailed information about a candidate's qualifications and profile from the job application list."><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit11.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit11.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The List Calendar screen allows users to manage a list of calendars."><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit13.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit13.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="Show and allows users with appropriate permissions (such as HR) to modify existing events or schedules in the calendar. This can include changing details of interviews, assessments, or any other recruitment-related activities.
+                        "><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit10.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit10.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The Multiple Choice Exam screen allows users to take a multiple-choice examination. Users will be presented with a set of questions, each having multiple answer choices. "><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit18.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit18.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="This screen is where candidates enter the code provided to access a specialized exam. It ensures secure access to the exam and verifies the candidate's eligibility."><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit19.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit19.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The Exam Submission screen allows users to submit a specific file as part of a specialized exam. Users are required to import the file and then submit it for evaluation."><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item  ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit2.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="After completing the general test, candidates can view their results on this screen. It provides a summary of the test performance, including the grade and time taken.
+                        "><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item  ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit3.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="The Assigning Expert screen appears when a user chooses the examiner for a specialized exam.
+                        "><i class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item  ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/recruit16.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/recruit16.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                          title="Email login credentials for the expert assigned by HR to grade the exam."><i
+                            class="bi bi-zoom-in"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div>
+              <div class="tab-pane fade" id="nav-pro1" role="tabpanel" aria-labelledby="nav-1-tab">
                 <h3 class="text-center mt-5">
-                  English Test System
+                  Online Learning System
                 </h3>
-                <h5 class="project-datetime text-center">Jul 2023 - Aug 2023</h5>
+                <h5 class="project-datetime text-center">May 2022 - Aug 2022</h5>
                 <div class="project-description mx-2 my-3">
                   <ul>
-                    <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>A system to manage a
-                        small sales system that tracks best-selling products and allows users to take tests and receive
-                        instant results of their English level.
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>This was a group project
+                        developed as part of the SWP391 subject. The system is designed for online learning, allowing
+                        users to register, purchase courses, manage their courses and accounts.
                       </span></li>
-                    <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Full Stack Developer</span>
+                    </li>
                     <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                          href="https://github.com/trangdtthe153077/PRN231_Test">Github</a></span></li>
-                    <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>C#, .NET
+                          href="https://gitlab.com/datnmhe153061/swp391_project.git">Gitlab</a></span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Java OOP, Servlet
+                        MVC, MSSQL Server, HTML, CSS, Bootstrap, AJAX
                       </span></li>
                     <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                      <span>Integrated backend services for users taking tests, returning results, and managing
-                        questions.
+                      <span>Developed full-stack functionality using Java for backend logic and HTML, CSS, Bootstrap,
+                        and
+                        AJAX for the frontend.
+                      </span>
+                      <span>Implemented various functions for user management, course handling, profiles, email
+                        notifications, and other essential features.
+                      </span>
+                      <span>Contributed to the overall system architecture and participated in regular team meetings to
+                        discuss progress and resolve any issues.
                       </span>
                     </li>
                   </ul>
                 </div>
+                <h6 class="mb-2 mt-4">
+                  Some screenshots of the features
+                </h6>
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-profile.JPG" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-profile.JPG" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox"
+                          title="This is a pop-up screen which allows the user to edit his/her profile information, including the registered ones & the avatar image"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-mycourse.JPG" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-mycourse.JPG" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox"
+                          title="Show the list of courses for the customer to view, search his/her access-allowed courses. Each registration includes below information: subject name, information, static link, endate."><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-registercourse.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-registercourse.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox"
+                          title="This is a pop-up screen which allow the user to register for access a subject. On this screen, the user needs to login and choose appropriate subject price package & input his/her information (full name, email, mobile, gender) to pay; User will receive a active course email after this finished. "><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-emailactive.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-emailactive.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="Email receive to active the course"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-subjectdetails-overview.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-subjectdetails-overview.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="Show and edit, change picture of the subject overview"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-details-price.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-details-price.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="List of price, search and edit"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item  ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-details-addnew.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-details-addnew.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="Add new dimension to subject dimension"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 portfolio-item  ">
+                    <div class="portfolio-wrap">
+                      <img src="assets/img/screen-details-dimension.png" class="img-fluid" alt="">
+                      <div class="portfolio-links">
+                        <a href="assets/img/screen-details-dimension.png" data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="Show list dimension, search, edit all the dimension"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-pro2" role="tabpanel" aria-labelledby="nav-2-tab">
+                <h3 class="text-center mt-5">
+                  Tank Unity
+                </h3>
+                <h5 class="project-datetime text-center">May 2023 - Aug 2023</h5>
+                <div class="project-description mx-2 my-3">
+                  <ul>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Designed and developed a
+                        customized version of Tank 1990 using Unity. This game showcases unique features such as custom
+                        map creation, diverse gameplay styles featuring different tanks, and additional mechanics to
+                        enhance gameplay dynamics.
+                      </span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
+                          href="https://github.com/trangdtthe153077/TankUnityProject">Github</a></span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>C#, Unity
+                      </span></li>
+                    <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
+                      <span>As the developer, I was responsible for implementing core gameplay mechanics, including tank
+                        movement, map building functionalities, and custom gameplay styles.
+                      </span>
+                      <span>I also integrated unique features to enrich the overall gameplay dynamics, including a
+                        secret
+                        dungeon where players randomly select maps with unfamiliar play styles. Unlike traditional tank
+                        controls (where players use buttons to move up, down, left, or right), my special feature allows
+                        gameplay by typing on the keyboard really fast.
+                      </span>
+                      <span>Or another mode is to play surviving against unlimited tanks with boss spawns.
+                      </span>
+                      <span>Players can also choose from various tanks bought from the store, including a special one
+                        that
+                        looks like a rock.
+                      </span>
+                      <span>It’s not a complex or intricate design game but I particularly like this project because it
+                        is
+                        actually fun.
+                      </span>
+                      <span>People in my class love this mode.
+                      </span>
+                    </li>
+                  </ul>
+                  <h6 class="mb-2 mt-4">
+                    Some screenshots of the features
+                  </h6>
+                  <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank1.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank2.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank3.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank4.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank5.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank5.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 portfolio-item ">
+                      <div class="portfolio-wrap">
+                        <img src="assets/img/tank6.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                          <a href="assets/img/tank6.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                            title=""><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div>
                   <h3 class="text-center mt-5">
-                    Sales Management System WPF
+                    English Test System
                   </h3>
-                  <h5 class="project-datetime text-center">Jan 2023 - Feb 2023</h5>
+                  <h5 class="project-datetime text-center">Jul 2023 - Aug 2023</h5>
                   <div class="project-description mx-2 my-3">
                     <ul>
-                      <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>A short assignment
-                          project to manage a small sales system that tracks best-selling products.
+                      <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>A system to manage a
+                          small sales system that tracks best-selling products and allows users to take tests and
+                          receive
+                          instant results of their English level.
                         </span></li>
                       <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
                       <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                            href="https://www.youtube.com/watch?v=slRRIIxYduU">YouTube</a></span></li>
-                      <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>WPF, C#, .NET
+                            href="https://github.com/trangdtthe153077/PRN231_Test">Github</a></span></li>
+                      <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>C#, .NET
                         </span></li>
                       <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                        <span>Designed and developed the system to track and display best-selling products. Implemented
-                          CRUD operations for sales data, including authorization and authentication.
+                        <span>Integrated backend services for users taking tests, returning results, and managing
+                          questions.
                         </span>
                       </li>
                     </ul>
                   </div>
                   <div>
                     <h3 class="text-center mt-5">
-                      Booking Restaurant
+                      Sales Management System WPF
                     </h3>
-                    <h5 class="project-datetime text-center">Jul 2022 - Jul 2022</h5>
+                    <h5 class="project-datetime text-center">Jan 2023 - Feb 2023</h5>
                     <div class="project-description mx-2 my-3">
                       <ul>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Created a Windows
-                            Form application that allows users to reserve a table before arriving at the restaurant.
+                        <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>A short assignment
+                            project to manage a small sales system that tracks best-selling products.
                           </span></li>
                         <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
                         <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                              href="https://github.com/nguyenchattrang/BookingRestaurantWindowsForm">Github</a></span>
-                        </li>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Windows Forms,
-                            C#, .NET
+                              href="https://www.youtube.com/watch?v=slRRIIxYduU">YouTube</a></span></li>
+                        <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>WPF, C#, .NET
                           </span></li>
                         <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                          <span>Developed the reservation system with user authentication.
-                            Implemented table booking and reservation management features.
-                            Integrated the database to store and retrieve reservation data.
+                          <span>Designed and developed the system to track and display best-selling products.
+                            Implemented
+                            CRUD operations for sales data, including authorization and authentication.
                           </span>
                         </li>
                       </ul>
                     </div>
-                  </div>
-                  <div>
-                    <h3 class="text-center mt-5">
-                      Kitten Cosmetic Shop
-                    </h3>
-                    <h5 class="project-datetime text-center">Jan 2022 - Mar 2022</h5>
-                    <div class="project-description mx-2 my-3">
-                      <ul>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>An individual
-                            project to create an eCommerce website with CRUD operations using Java Servlet for selling
-                            cosmetics.
-                          </span></li>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
-                              href="https://github.com/nguyenchattrang/websitebanhang">Github</a></span></li>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Java Servlet,
-                            HTML, CSS, JavaScript, MSSQL
-                          </span></li>
-                        <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
-                          <span>Designed and implemented the eCommerce platform for selling cosmetics.
-                            Developed a full stack website using Java Servlet MVC and Bootstrap.
-                            Created user interfaces for browsing, searching, and purchasing products.
-                          </span>
-                        </li>
-                      </ul>
+                    <div>
+                      <h3 class="text-center mt-5">
+                        Booking Restaurant
+                      </h3>
+                      <h5 class="project-datetime text-center">Jul 2022 - Jul 2022</h5>
+                      <div class="project-description mx-2 my-3">
+                        <ul>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>Created a Windows
+                              Form application that allows users to reserve a table before arriving at the restaurant.
+                            </span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
+                                href="https://github.com/nguyenchattrang/BookingRestaurantWindowsForm">Github</a></span>
+                          </li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Windows
+                              Forms,
+                              C#, .NET
+                            </span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
+                            <span>Developed the reservation system with user authentication.
+                              Implemented table booking and reservation management features.
+                              Integrated the database to store and retrieve reservation data.
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <h3 class="text-center mt-5">
+                        Kitten Cosmetic Shop
+                      </h3>
+                      <h5 class="project-datetime text-center">Jan 2022 - Mar 2022</h5>
+                      <div class="project-description mx-2 my-3">
+                        <ul>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Description:</strong> <span>An individual
+                              project to create an eCommerce website with CRUD operations using Java Servlet for selling
+                              cosmetics.
+                            </span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Role:</strong> <span>Developer</span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Source:</strong> <span><a
+                                href="https://github.com/nguyenchattrang/websitebanhang">Github</a></span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Technologies Used:</strong> <span>Java
+                              Servlet,
+                              HTML, CSS, JavaScript, MSSQL
+                            </span></li>
+                          <li><i class="bi bi-balloon-heart"></i> <strong>Responsibilities:</strong>
+                            <span>Designed and implemented the eCommerce platform for selling cosmetics.
+                              Developed a full stack website using Java Servlet MVC and Bootstrap.
+                              Created user interfaces for browsing, searching, and purchasing products.
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -930,139 +981,140 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="myphotos" class="myphotos">
-      <div class="container">
-        <div class="section-title">
-          <h2>Photos</h2>
-        </div>
-        <div class="px-3" data-aos="zoom-out" data-aos-delay="100">
-          <h3 class="text-center">
-            Hobbies
-          </h3>
-          <p>
-            I have a hobby that maybe everyone else also has. I enjoy editing random pictures, videos, adding
-            subtitles and translating videos. I also like reading comics which inspired me to create a small
-            Facebook page where I translate comics into Vietnamese. You can check it out below if you're just
-            curious.
-          </p>
-          <p>
-            I also love animals. I've taught my dog various tricks such as sitting, standing, barking, barking
-            quietly, turning around, and even catching food in mid-air. Really special and handsome. The cat belongs
-            to my neighbor, but it loves me because I feed it. Here are a few pictures of them.
-          </p>
-        </div>
-        <section class="portfolio ">
-          <div class="container">
-            <h5 class="text-center">Random Pictures That I Made</h5>
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pic1.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        Is
-                      </p>
+      </section>
+      <section id="myphotos" class="myphotos">
+        <div class="container">
+          <div class="section-title">
+            <h2>Photos</h2>
+          </div>
+          <div class="px-3" data-aos="zoom-out" data-aos-delay="100">
+            <h3 class="text-center">
+              Hobbies
+            </h3>
+            <p>
+              I have a hobby that maybe everyone else also has. I enjoy editing random pictures, videos, adding
+              subtitles and translating videos. I also like reading comics which inspired me to create a small
+              Facebook page where I translate comics into Vietnamese. You can check it out below if you're just
+              curious.
+            </p>
+            <p>
+              I also love animals. I've taught my dog various tricks such as sitting, standing, barking, barking
+              quietly, turning around, and even catching food in mid-air. Really special and handsome. The cat belongs
+              to my neighbor, but it loves me because I feed it. Here are a few pictures of them.
+            </p>
+          </div>
+          <section class="portfolio ">
+            <div class="container">
+              <h5 class="text-center">Random Pictures That I Made</h5>
+              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pic1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          Is
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pic2.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        It
-                      </p>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pic2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          It
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pic3.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        Nice?
-                      </p>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pic3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          Nice?
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section class="portfolio ">
-          <div class="container">
-            <h5 class="text-center">My Comics Page</h5>
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-              <div class="profile">
-                <div class="social-links mt-3 text-center">
-                  <a href="https://www.facebook.com/profile.php?id=100088432866466" class="facebook"><i
-                      class="bx bxl-facebook"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="portfolio ">
-          <div class="container">
-            <h5 class="text-center">My Pet Pictures</h5>
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pet1.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        Hoa
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pet2.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        Miu
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/pet3.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-links" style="opacity: 0.7;">
-                    <div class="pt-2"
-                      style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
-                      <p style="color: white; text-align: center;">
-                        Hoa
-                      </p>
-                    </div>
+          </section>
+          <section class="portfolio ">
+            <div class="container">
+              <h5 class="text-center">My Comics Page</h5>
+              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="profile">
+                  <div class="social-links mt-3 text-center">
+                    <a href="https://www.facebook.com/profile.php?id=100088432866466" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-      </div>
-    </section>
-  </main>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+          </section>
+          <section class="portfolio ">
+            <div class="container">
+              <h5 class="text-center">My Pet Pictures</h5>
+              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pet1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          Hoa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pet2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          Miu
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/pet3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links" style="opacity: 0.7;">
+                      <div class="pt-2"
+                        style="background-color: black; width: 100%; align-items: center; font-size: 14px;">
+                        <p style="color: white; text-align: center;">
+                          Hoa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      </section>
+    </main>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+  
+  </div>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1077,5 +1129,7 @@
   <script>
     new WOW().init();
   </script>
+
 </body>
+
 </html>
