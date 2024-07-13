@@ -132,7 +132,7 @@ letterButton.addEventListener('click', function() {
         stary[i] += 1 + Math.random() * 3;
       
         starx[i] += (i % 5 - 2) / 5;
-        console.log(banner.clientWidth); // Use clientWidth for the inner width excluding padding
+       
 
         if (starx[i] > banner.clientWidth-5) {
             starx[i] = banner.clientWidth-5;
@@ -144,7 +144,7 @@ letterButton.addEventListener('click', function() {
 
 
           if (star[i].style.left > window.screen.width - 10) {
-            console.log(window.screen.width);
+          
             star[i].style.display = "none";
             starv[i] = 0;
 
